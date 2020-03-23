@@ -543,6 +543,9 @@ a {
 		top: 340px;
 		font-size: 11px;
 	}
+	.share-bcg {
+		margin-top: 5px;
+	}
 }
 @media screen and (max-width: 491px) {
 	.cont > ul > li > a {
