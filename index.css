@@ -529,6 +529,9 @@ a {
 		width: 82px;
 		margin-left: 25px;
 	}
+	.share-bcg {
+		margin-top: 5px;
+	}
 }
 @media (max-width: 580px) {
 	.carousel-caption > h3 {
@@ -542,9 +545,6 @@ a {
 		left: -70px;
 		top: 340px;
 		font-size: 11px;
-	}
-	.share-bcg {
-		margin-top: 5px;
 	}
 }
 @media screen and (max-width: 491px) {
