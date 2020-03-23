@@ -50,7 +50,7 @@ a {
 	font-size: 11px;
 }
 
-.carousel-inner {
+.mobile-item {
 	position: relative;
 	width: 100%;
 	max-width: 1440px;
@@ -193,6 +193,16 @@ a {
 	float: left !important;
 }
 
+.m1 h5 {
+	font-weight: 600;
+	font-size: 12px;
+	margin-top: 18px;
+	padding: 0px 10px;
+	width: 100px;
+	margin-left: 42px;
+	color: #000000;
+}
+
 .views {
 	padding: 0px 20px;
 }
@@ -272,28 +282,6 @@ a {
 	width: 20px;
 	height: 19px;
 }
-@media screen and (max-width: 1125px) {
-	.view-btn {
-		width: 600px;
-	}
-}
-@media screen and (max-width: 720px) {
-	.view-btn {
-		width: 500px;
-	}
-}
-@media screen and (max-width: 600px) {
-	.view-btn {
-		width: 350px;
-	}
-	.cmpy {
-		font-size: 12px;
-	}
-	.location {
-		font-size: 13px;
-		margin: 0px 10px;
-	}
-}
 
 .job-title {
 	height: 30px;
@@ -343,6 +331,26 @@ a {
 	text-align: justify;
 }
 
+.top i {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 80px;
+	color: #ffffff;
+	display: none;
+	margin: 0px 10px;
+}
+.top p {
+	right: 30px;
+	position: absolute;
+	top: 80px;
+	color: #ffffff;
+	border-radius: 4px;
+	border: 1px solid #ffffff;
+	padding: 5px;
+	display: none;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1320px) {
@@ -386,7 +394,28 @@ a {
 		margin: 20px auto;
 	}
 }
-
+@media screen and (max-width: 1125px) {
+	.view-btn {
+		width: 600px;
+	}
+}
+@media screen and (max-width: 720px) {
+	.view-btn {
+		width: 500px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.view-btn {
+		width: 350px;
+	}
+	.cmpy {
+		font-size: 12px;
+	}
+	.location {
+		font-size: 13px;
+		margin: 0px 10px;
+	}
+}
 @media screen and (max-width: 740px) {
 	.card-img-top {
 		width: 538px;
@@ -410,6 +439,12 @@ a {
 	.filter-drop {
 		position: absolute;
 		right: 100px;
+	}
+	.top i {
+		display: block;
+	}
+	.top p {
+		display: block;
 	}
 }
 @media only screen and (max-width: 930px) and (min-width: 740px) {
@@ -471,6 +506,25 @@ a {
 		position: absolute;
 		right: 60px;
 	}
+	.views svg {
+		display: none;
+	}
+	.views {
+		margin-top: 7px;
+		margin-bottom: none;
+		font-size: 11px;
+	}
+	.m1 img {
+		width: 28px;
+		height: 28px;
+	}
+	.m1 h5 {
+		font-size: 10px;
+		margin-top: 8px;
+		padding: 0px 7px;
+		width: 82px;
+		margin-left: 25px;
+	}
 }
 @media (max-width: 580px) {
 	.carousel-caption > h3 {
@@ -486,7 +540,6 @@ a {
 		font-size: 11px;
 	}
 }
-
 @media screen and (max-width: 491px) {
 	.cont > ul > li > a {
 		font-size: 10px;
@@ -500,6 +553,8 @@ a {
 		font-size: 13px;
 		margin: 2px;
 	}
+	.views svg {
+		display: none;
+	}
 }
-
 /* Media Queries Ends */
